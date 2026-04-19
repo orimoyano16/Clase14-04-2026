@@ -1,9 +1,13 @@
 # Clase14-04-2026
 ## Moyano Oriana 
 1- Implementar en local
+
 2- Identificar las relaciones de jerarquía.
+
 3- Implementar con todas las formas de asociación
+
 4- Pegar el desarrollo en la hoja de calculo 
+
 5- ¿Cuál es la diferencia en tiempo de ejecución de la asociación por Composición y la asociación por Agregación?
 
 
