@@ -125,6 +125,12 @@ Aeroplano
 
 ControlVuelo ---> (Dependencia) Aeroplano
 
+5-No existe una diferencia significativa en el tiempo de ejecución entre composición y agregación, ya que ambas se implementan como referencias a objetos. La diferencia radica en el ciclo de vida y la dependencia entre objetos, no en la eficiencia.
+
+
+
+
+
 ```mermaid
 classDiagram
 
@@ -180,8 +186,6 @@ class ControlVuelo {
   +verificar(a: Aeroplano): string
 }
 
-%% RELACIONES
-
 Aeroplano *-- Helice
 Aeroplano *-- TrendeAterrizaje
 Aeroplano *-- Alas
@@ -193,7 +197,5 @@ Helice --> Turbina
 
 ControlVuelo ..> Aeroplano
 
-
-5- No existe una diferencia significativa en el tiempo de ejecución entre composición y agregación, ya que ambas se implementan como referencias a objetos. La diferencia radica en el ciclo de vida y la dependencia entre objetos, no en la eficiencia.
 
 
